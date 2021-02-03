@@ -46,7 +46,7 @@ class TodoList extends Component {
 		return (
 			<div className="TodoList">
 				<h1>
-					Todo List! <span>Surprisingly, no cats were harmed while developing this innovative app.</span>
+					Todo List! <span>Click on a todo to mark it 'complete'!</span>
 				</h1>
 				<TodoForm addTodo={this.addTodo}/>
 				{this.state.todos.map((todo) => (

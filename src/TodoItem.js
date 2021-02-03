@@ -63,7 +63,7 @@ class TodoItem extends Component {
 	render() {
 		if (this.state.isEditing) {
 			return (
-				<div className="Todo-edit-form">
+				<div className="NewTodoForm">
 					<form onSubmit={this.handleSubmit}>
 						<input 
 							type="text"
